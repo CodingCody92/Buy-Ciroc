@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    margin: 0;
+    line-height: 1.6;
+}
+
+h1 {
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    font-size: 100px;
+    font-weight: 200;
+}
+
+a {
+    color: rgb(97, 142, 238);
+    text-decoration: none;
+    font-size: 20px;
+    border: 1px solid rgb(97, 142, 238);
+    border-radius: 5px;
+    padding: 10px 15px;
+    margin-top: 25px;
+    
+}
+
+.button {
+    padding: 10px;
+}
+
+.liquor {
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    color: white;
+    
+    
+}
+
+.ciroc {
+    background-image: url(https://www.wallpaperup.com/uploads/wallpapers/2014/11/21/522441/3804410da6d85eb9288bb1ca94832290.jpg);
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    padding: 15px;
+    text-align: center;
+
+}
+
+a:hover {
+    color: white;
+    background-color: rgb(45, 107, 241);
+    transition: 0.2s ease-in;
+}
+
+.enjoy {
+    padding: 20px;
+    text-align: center;
+}
+
+.enjoy:nth-child(odd) {
+    background-color: rgb(21, 45, 97);
+    color: rgb(177, 191, 223)
+}
+
+.enjoy:nth-child(even) {
+    background-color: rgb(20, 65, 161);
+    color: rgb(177, 191, 223);
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: rgb(30, 32, 36);
+    color: white;
+}
